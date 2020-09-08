@@ -42,7 +42,7 @@ Learnt to create a service, fetch a http get request and to display in the view 
 
 ## Routing
 
-Learnt to use Routing Components,Wild Card Routing
+Learnt to use Routing Components, Wild Card Routing
 
 ## Reactive Forms
 
