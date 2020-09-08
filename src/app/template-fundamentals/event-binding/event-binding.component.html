@@ -1,0 +1,11 @@
+<h2>Example of event binding</h2>
+
+<h4>Example of event binding with click</h4>
+<div>
+    <button type="button" (click)="clicked($event)">Click me</button>
+    <br>
+    <button type="button" (click)="unclicked($event)">Click to hide text</button>
+
+    <p [innerHTML]="clickedEvent"></p>
+
+</div>

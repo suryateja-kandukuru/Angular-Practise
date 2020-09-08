@@ -1,0 +1,13 @@
+<h2>Example of Class binding</h2>
+
+<div>
+    <p>I have a class called btech it should be applied to btech student in green else red</p>
+
+    <p [class.btech]="isbtech">Btech student</p>
+</div>
+
+<div>
+    <p>We have multiple class for a single tag</p>
+
+    <p [ngClass]="{'btech':true, 'topper':true }">This is a simple text</p>
+</div>

@@ -1,5 +1,55 @@
 # AngularBasics
 
+## Learnt Angular Basics:
+1.How to install Angular using npm.
+2.Checking the node,npm,angular version
+3.How to create the angular project using ng new <project-name>
+4.How to create the angular component using 
+ng g c <component-name>
+5.How to create a angular service using 
+ng g s <service-name>
+6.How to create a module using the command
+ng g m <module-name>
+7.How to serve the angular application using the command ng serve --open 
+
+## Template Fundamentals
+
+Learnt the template fundamentals
+ - Interpolation
+ - Property Binding
+ - Event Binding
+ - Two Way Data Binding
+ - Template Reference 
+
+## Rendering Flows
+
+Learnt the rendering flows
+- *ngIf
+- *ngFor
+- Style Binding
+- Class Binding
+- Pipes
+
+## Component Interaction
+
+Learnt the component Interatction
+- Input Decorator
+- Output Decorator
+
+## HttpClient Module
+
+Learnt to create a service, fetch a http get request and to display in the view onInit.
+
+## Routing
+
+Learnt to use Routing Components,Wild Card Routing
+
+## Reactive Forms
+
+Learnt to build reactive forms, Validations fields, Validation with custom messages.
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.0.
 
 ## Development server

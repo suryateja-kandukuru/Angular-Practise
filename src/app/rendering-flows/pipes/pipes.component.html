@@ -1,0 +1,10 @@
+<h2>Examples of pipes</h2>
+
+<p *ngFor="let result of results">{{result.firstname | lowercase }}</p>
+<br>
+<p *ngFor="let result of results">{{result.firstname | uppercase }}</p>
+<br>
+<p *ngFor="let result of results">{{result.firstname | titlecase }}</p>
+
+<br>
+<p *ngFor="let result of results">{{result | json}}</p>

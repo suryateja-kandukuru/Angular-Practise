@@ -1,0 +1,8 @@
+<h2>Example of *ngIf</h2>
+
+<p>Here i am taking a boolean cond true in the ts file. </p>
+<p>Now on click of button it will hide because it will set to false</p>
+<button type="button" (click)="toggle()">toggle</button>
+<div *ngIf="cond">
+    <p>Hey i am visible</p>
+</div>

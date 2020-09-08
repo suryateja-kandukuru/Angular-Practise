@@ -1,0 +1,6 @@
+<h2>Hello im parent component</h2>
+
+<div>
+    <p>I have a list of groceries to send to child.</p>
+    <app-child [item]="items" (valueChanged)="data($event)" (types)="datas($event)"></app-child>
+</div>
